@@ -1,7 +1,12 @@
 @import '_mixin.scss';
-
+@font-face {
+    font-family: Noto Sans TC;
+    src: url("../info/NotoSansTC-Medium.otf") format("opentype");
+}
 * {
     box-sizing: border-box;
+    font-family: "Noto Sans TC" !important;
+    font-display: swap;
 }
 
 html,
