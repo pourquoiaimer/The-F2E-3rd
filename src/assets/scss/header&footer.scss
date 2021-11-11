@@ -1,0 +1,40 @@
+.header_content {
+    height: auto;
+    width: 100%;
+    display: flex;
+    padding: 5px;
+    justify-content: space-around;
+}
+
+.myFavorite{
+    display: flex;
+    justify-content: center;
+    color: #000;
+    border:1px solid black ;
+    border-radius: 25px;
+    padding: 10px 20px;
+    cursor: pointer;
+    
+    img{
+        color: red;
+        cursor: pointer;
+        margin-right:10px;
+    }
+}
+//////////////////////////////////以上為header
+//////////////////////////////////以下為footer
+.footer_content {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #71c3d8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    padding: 20px;
+    p{
+        font-size: 24px;
+        text-align: center;
+    }
+}
