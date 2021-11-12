@@ -11,10 +11,10 @@ const Home = () => {
     //     }
     // }
     return (
-            <div className="homepage">
+            <div className="search">
                 <div className="bg">
                 </div>
-                <div className="homepage_content">
+                <div className="search_content">
                     <h1>探索台灣之美</h1>
                     <hr />
                     <div>
@@ -28,7 +28,6 @@ const Home = () => {
                         <button className="search_btn">搜尋</button>
                     </div>
                 </div>
-
             </div>
     )
 }

@@ -1,39 +1,73 @@
+$blue-light : #71c3d8;
+$yellow-light : #f1d63c;
+$my-white : #4e4e4e;
+// $my-white : red;
+
+
+
 .header_content {
-    height: auto;
+    height: 64px;
     width: 100%;
     display: flex;
-    padding: 5px;
-    justify-content: space-around;
-}
-
-.myFavorite{
-    display: flex;
-    justify-content: center;
-    color: #000;
-    border:1px solid black ;
-    border-radius: 25px;
-    padding: 10px 20px;
-    cursor: pointer;
-    
-    img{
-        color: red;
-        cursor: pointer;
-        margin-right:10px;
+    padding: 5px 20px;
+    justify-content: space-between;
+    background-color: $yellow-light;
+    position: relative;
+    .modal{
+        position: absolute;
+        width: 300px;
+        height: 200px;
+        border: 1px solid $blue-light;
+        background-color: white;
+        right: 20px;
+        bottom: -220px;
+        z-index: 3;
+        transition: all 5s;
+        opacity: 0;
     }
 }
+
+.myFavorite {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    border: 1px solid $my-white;
+    border-radius: 25px;
+    padding: 10px 20px;
+    margin: 5px 0;
+    cursor: pointer;
+    color: $my-white;
+
+    &:hover {
+        border: 1px solid red;
+        color: red;
+    }
+
+    svg {
+        margin-right: 10px;
+        user-select: none;
+    }
+
+    span {
+        user-select: none;
+    }
+}
+
 //////////////////////////////////以上為header
 //////////////////////////////////以下為footer
 .footer_content {
     position: absolute;
     bottom: 0;
     width: 100%;
-    background-color: #71c3d8;
+    background-color: $yellow-light;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: auto;
+    height: 64px;
     padding: 20px;
-    p{
+
+    p {
         font-size: 24px;
         text-align: center;
     }

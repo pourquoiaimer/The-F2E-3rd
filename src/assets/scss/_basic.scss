@@ -1,8 +1,10 @@
 @import '_mixin.scss';
+
 @font-face {
     font-family: Noto Sans TC;
     src: url("../info/NotoSansTC-Medium.otf") format("opentype");
 }
+
 * {
     box-sizing: border-box;
     font-family: "Noto Sans TC" !important;
@@ -21,7 +23,8 @@ body,
     height: 100%;
     width: 100%;
 }
-main{
+
+main {
     width: 100%;
     height: auto;
     padding-bottom: 60px;

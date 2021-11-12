@@ -1,21 +1,30 @@
 import React, { useState, useContext, useEffect } from "react";
-import heart_f from '../assets/images/icon/favorite_black_24dp.svg'
-import heart_e from '../assets/images/icon/favorite_border_black_24dp.svg'
+import { AiFillHeart } from 'react-icons/ai';
 
 const Header = () => {
+    const [isShow, setIsShow] = useState(false)
+    function MyFavoriteList() {
+        if (isShow === false) {
+            return null
+        }
+        return (
+            <div className='modal' style={{opacity: 1}}>
+                aqweqwe
+            </div>
+        )
+    }
     return (
         <div className='header_content'>
             <p>Discover Taiwan</p>
-            <div>
-                <a href="/">a</a>
-                <a href="/">a</a>
-                <a href="/">a</a>
-            </div>
-            <div className='myFavorite'>
-                <img src={heart_e} alt="" />
+            <div className='myFavorite' onClick={() => {
+                setIsShow(!isShow)
+                console.log(isShow)
+            }}>
+                <AiFillHeart />
                 <span>我的最愛</span>
-
             </div>
+            <MyFavoriteList />
+
         </div>
     )
 }
