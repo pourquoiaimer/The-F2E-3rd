@@ -8,17 +8,16 @@ const Header = () => {
             return null
         }
         return (
-            <div className='modal' style={{opacity: 1}}>
+            <div className='modal_favorite' style={{opacity: 1}}>
                 aqweqwe
             </div>
         )
     }
     return (
         <div className='header_content'>
-            <p>Discover Taiwan</p>
+            <span className='header_text'>Discover Taiwan</span>
             <div className='myFavorite' onClick={() => {
                 setIsShow(!isShow)
-                console.log(isShow)
             }}>
                 <AiFillHeart />
                 <span>我的最愛</span>

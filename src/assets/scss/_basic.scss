@@ -1,4 +1,7 @@
 @import '_mixin.scss';
+$blue-light : #71c3d8;
+$yellow-light : #f1d63c;
+$my-white : #504747;
 
 @font-face {
     font-family: Noto Sans TC;
@@ -22,10 +25,11 @@ body,
 .App {
     height: 100%;
     width: 100%;
+    position: relative;
 }
 
 main {
     width: 100%;
-    height: auto;
-    padding-bottom: 60px;
+    height: calc(100% - 128px);
+    // margin-bottom: 64px;
 }
