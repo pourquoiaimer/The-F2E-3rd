@@ -1,5 +1,9 @@
 node_modules
 .DS_Store
+<<<<<<< HEAD
 # dist
 # dist-ssr
+=======
+dist-ssr
+>>>>>>> 47db6dabe6b8c36b819f6c5146c356d291cd3548
 *.local
