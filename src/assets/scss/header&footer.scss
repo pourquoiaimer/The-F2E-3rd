@@ -1,11 +1,7 @@
-$blue-light : #71c3d8;
-$yellow-light : #f1d63c;
-$my-white : #4e4e4e;
-// $my-white : red;
-
-
-
 .header_content {
+    @include s1024{
+        color: blue;
+    }
     height: 64px;
     width: 100%;
     display: flex;
@@ -13,18 +9,25 @@ $my-white : #4e4e4e;
     justify-content: space-between;
     background-color: $yellow-light;
     position: relative;
-    .modal{
-        position: absolute;
-        width: 300px;
-        height: 200px;
-        border: 1px solid $blue-light;
-        background-color: white;
-        right: 20px;
-        bottom: -220px;
-        z-index: 3;
-        transition: all 5s;
-        opacity: 0;
+    .header_text{
+        display: block;
+        font-size: 24px;
+        line-height: 54px;
+        color: $my-white;
     }
+}
+
+.modal_favorite {
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    border: 1px solid $blue-light;
+    background-color: white;
+    right: 20px;
+    bottom: -220px;
+    z-index: 3;
+    transition: all 5s;
+    opacity: 0;
 }
 
 .myFavorite {
@@ -68,7 +71,8 @@ $my-white : #4e4e4e;
     padding: 20px;
 
     p {
-        font-size: 24px;
+        color: $my-white;
+        font-size: 20px;
         text-align: center;
     }
 }
