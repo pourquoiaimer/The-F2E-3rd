@@ -1,16 +1,17 @@
 @import '_mixin.scss';
+
 $blue-light : #71c3d8;
 $yellow-light : #f1d63c;
 $my-white : #504747;
 
 @font-face {
     font-family: Noto Sans TC;
-    src: url("../info/NotoSansTC-Medium.otf") format("opentype");
+    src: url("../info//NotoSansTC.otf") format("opentype");
 }
 
 * {
     box-sizing: border-box;
-    font-family: "Noto Sans TC" !important;
+    font-family: 'Noto Sans TC' !important;
     font-display: swap;
 }
 
@@ -26,10 +27,11 @@ body,
     height: 100%;
     width: 100%;
     position: relative;
+    overflow:auto;
 }
 
 main {
     width: 100%;
-    height: calc(100% - 128px);
+    height: auto;
     // margin-bottom: 64px;
 }

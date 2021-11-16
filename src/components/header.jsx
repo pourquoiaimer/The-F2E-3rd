@@ -1,5 +1,6 @@
 import React, { useState, useContext, useEffect } from "react";
-import { AiFillHeart } from 'react-icons/ai';
+import { BsFillTelephoneFill, BsFillSuitHeartFill } from 'react-icons/bs';
+import { MdLocationOn,MdEmail}from 'react-icons/md'
 
 const Header = () => {
     const [isShow, setIsShow] = useState(false)
@@ -8,7 +9,7 @@ const Header = () => {
             return null
         }
         return (
-            <div className='modal_favorite' style={{opacity: 1}}>
+            <div className='modal_favorite' style={{ opacity: 1 }}>
                 aqweqwe
             </div>
         )
@@ -19,7 +20,7 @@ const Header = () => {
             <div className='myFavorite' onClick={() => {
                 setIsShow(!isShow)
             }}>
-                <AiFillHeart />
+                <BsFillSuitHeartFill />
                 <span>我的最愛</span>
             </div>
             <MyFavoriteList />

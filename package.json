@@ -1,10 +1,12 @@
 {
   "name": "the-f2e-week1",
   "version": "0.0.0",
+  "homepage": "https://pourquoiaimer.github.io/The-F2E-3rd/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "serve": "vite preview"
+    "serve": "vite preview",
+    "deploy": "gh-pages -d The F2E 3rd week1"
   },
   "dependencies": {
     "axios": "^0.24.0",
@@ -12,10 +14,12 @@
     "react-dom": "^17.0.0",
     "react-icons": "^4.3.1",
     "react-router-dom": "^6.0.1",
+    "react-select": "^5.2.1",
     "sass": "^1.43.4"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^1.0.0",
+    "gh-pages": "^3.2.3",
     "vite": "^2.6.4"
   }
 }

@@ -60,15 +60,13 @@
 //////////////////////////////////以上為header
 //////////////////////////////////以下為footer
 .footer_content {
-    position: absolute;
-    bottom: 0;
+    // position: absolute;
     width: 100%;
     background-color: $yellow-light;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 64px;
-    padding: 20px;
 
     p {
         color: $my-white;
