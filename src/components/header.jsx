@@ -1,6 +1,5 @@
 import React, { useState, useContext, useEffect } from "react";
-import { BsFillTelephoneFill, BsFillSuitHeartFill } from 'react-icons/bs';
-import { MdLocationOn,MdEmail}from 'react-icons/md'
+
 
 const Header = () => {
     const [isShow, setIsShow] = useState(false)
@@ -14,17 +13,10 @@ const Header = () => {
             </div>
         )
     }
-    return (
-        <div className='header_content'>
-            <span className='header_text'>Discover Taiwan</span>
-            <div className='myFavorite' onClick={() => {
-                setIsShow(!isShow)
-            }}>
-                <BsFillSuitHeartFill />
-                <span>我的最愛</span>
-            </div>
-            <MyFavoriteList />
 
+    return (
+        <div className='header'>
+            <span className='header_text'>TAIWAN 台灣旅遊</span>
         </div>
     )
 }

@@ -1,0 +1,37 @@
+.header {
+  height: 60px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  display: flex;
+  padding: 5px 20px;
+  background-color: rgba(255, 255, 255, 0.5);
+  z-index: 2;
+  .header_text {
+    display: block;
+    font-size: 1.25em;
+    line-height: 54px;
+    color: rgb(66, 66, 66);
+    font-weight: bold;
+  }
+}
+
+//////////////////////////////////以上為header
+//////////////////////////////////以下為footer
+.footer_content {
+  // position: absolute;
+  width: 100%;
+  background-color: $orange;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 64px;
+
+  p {
+    color: white;
+    // font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+  }
+}
+

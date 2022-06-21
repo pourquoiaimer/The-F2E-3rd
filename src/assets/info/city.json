@@ -1,24 +1,90 @@
 [
-  { "cityName": "臺北市" ,"cityNameEn": "Taipei"},
-  { "cityName": "新北市" , "cityNameEn": "NewTaipei"},
-    {"cityName":"桃園市" , "cityNameEn": "Taoyuan"},
-    {"cityName":"臺中市" , "cityNameEn": "Taichung"},
-  {  "cityName":"臺南市" , "cityNameEn": "Tainan"},
-   {"cityName": "高雄市" , "cityNameEn": "Kaohsiung"},
-    {"cityName":"基隆市" , "cityNameEn": "Keelung"},
-    {"cityName":"新竹市" , "cityNameEn": "Hsinchu"},
- {   "cityName":"新竹縣" , "cityNameEn": "HsinchuCounty"},
-   { "cityName":"苗栗縣" , "cityNameEn": "MiaoliCounty"},
-   { "cityName":"彰化縣" , "cityNameEn": "ChanghuaCounty"},
-   { "cityName":"南投縣" , "cityNameEn": "NantouCounty"},
-    {"cityName":"雲林縣" , "cityNameEn": "YunlinCounty"},
-{    "cityName":"嘉義縣" , "cityNameEn": "ChiayiCounty"},
-    {"cityName":"嘉義市" , "cityNameEn": "Chiayi"},
-{        "cityName":"屏東縣" , "cityNameEn": "PingtungCounty"},
-   { "cityName":"宜蘭縣" , "cityNameEn": "YilanCounty"},
-{    "cityName":"花蓮縣" , "cityNameEn": "HualienCounty"},
-   { "cityName":"臺東縣" , "cityNameEn": "TaitungCounty"},
-   { "cityName":"金門縣" , "cityNameEn": "KinmenCounty"},
-    {"cityName":"澎湖縣" , "cityNameEn": "PenghuCounty"},
-   { "cityName":"連江縣" , "cityNameEn": "LienchiangCounty"}
+  {
+    "cityName": "臺北市",
+    "cityNameEn": "Taipei"
+  },
+  {
+    "cityName": "新北市",
+    "cityNameEn": "NewTaipei"
+  },
+  {
+    "cityName": "桃園市",
+    "cityNameEn": "Taoyuan"
+  },
+  {
+    "cityName": "臺中市",
+    "cityNameEn": "Taichung"
+  },
+  {
+    "cityName": "臺南市",
+    "cityNameEn": "Tainan"
+  },
+  {
+    "cityName": "高雄市",
+    "cityNameEn": "Kaohsiung"
+  },
+  {
+    "cityName": "基隆市",
+    "cityNameEn": "Keelung"
+  },
+  {
+    "cityName": "新竹市",
+    "cityNameEn": "Hsinchu"
+  },
+  {
+    "cityName": "新竹縣",
+    "cityNameEn": "HsinchuCounty"
+  },
+  {
+    "cityName": "苗栗縣",
+    "cityNameEn": "MiaoliCounty"
+  },
+  {
+    "cityName": "彰化縣",
+    "cityNameEn": "ChanghuaCounty"
+  },
+  {
+    "cityName": "南投縣",
+    "cityNameEn": "NantouCounty"
+  },
+  {
+    "cityName": "雲林縣",
+    "cityNameEn": "YunlinCounty"
+  },
+  {
+    "cityName": "嘉義縣",
+    "cityNameEn": "ChiayiCounty"
+  },
+  {
+    "cityName": "嘉義市",
+    "cityNameEn": "Chiayi"
+  },
+  {
+    "cityName": "屏東縣",
+    "cityNameEn": "PingtungCounty"
+  },
+  {
+    "cityName": "宜蘭縣",
+    "cityNameEn": "YilanCounty"
+  },
+  {
+    "cityName": "花蓮縣",
+    "cityNameEn": "HualienCounty"
+  },
+  {
+    "cityName": "臺東縣",
+    "cityNameEn": "TaitungCounty"
+  },
+  {
+    "cityName": "金門縣",
+    "cityNameEn": "KinmenCounty"
+  },
+  {
+    "cityName": "澎湖縣",
+    "cityNameEn": "PenghuCounty"
+  },
+  {
+    "cityName": "連江縣",
+    "cityNameEn": "LienchiangCounty"
+  }
 ]

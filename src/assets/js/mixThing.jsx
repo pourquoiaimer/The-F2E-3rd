@@ -1,15 +1,16 @@
 export const selectboxStyle = {
+	container: base => ({
+		...base,
+		width:"48%",
+		cursor:"pointer",
+		textAlign:"center"
+	}),
 	option: (base, state) => ({
 		...base,
-		fontSize: '24px',
-		lineHeight: '30px',
-		paddingLeft: 'px',
-		wordBreak: 'break-all',
-		// background: state.isSelected ? `url(${sel_chk}) no-repeat left 0px center` : '',
-		backgroundColor: 'none',
-		borderBottom: 'solid 1px #f2f2f2',
 		color: 'black',
-		cursor: 'pointer',
+		cursor:"pointer",
+		border: '1px solid #e7e7e7',
+
 		'&:hover': {
 			opacity: '.7',
 			backgroundColor: '#f1d63c'
@@ -17,38 +18,32 @@ export const selectboxStyle = {
 	}),
 	control: (base, state) => ({
 		...base,
-		// borderColor: state.isFocused ? 'red' : 'yellow',
-        width: 250,
-		border: '1px solid #d8dada;',
-		borderBottom: state.isFocused ? '' : '1px solid #000',
-		boxShadow: 'none',
 		'&:hover': {
-			opacity: '.7',
+			opacity: '.8',
 			border: '1px solid #d8dada;'
 		},
 	}),
 	menu: base => ({
 		...base,
-		zIndex: 20,
 		margin: "0",
-	}),
-	indicatorSeparator: base => ({
-		...base,
-		display: 'none'
-	}),
-	dropdownIndicator: (base, state) => ({
-		...base,
-		fill: state.isFocused ? 'red' : '',
-		transform: state.isFocused ? 'scaleY(-1)' : ''
+		border: '1px solid #d8dada;'
 	}),
 
-	valueContainer: (base) => ({
+
+	valueContainer: (base) => ({ //主要調整這個，選項位置，不是打開的部份
 		...base,
-		height: '100%',
-		cursor: 'pointer'
+		cursor: 'pointer',
 	}),
-	indicatorsContainer: (base) => ({
+	indicatorsContainer: (base) => ({ //右側箭頭區塊
 		...base,
-		cursor: 'pointer'
-	})
+		cursor: 'pointer',
+	}),
+	dropdownIndicator: (base, state) => ({//箭頭
+		...base,
+		color:"#FD975E",
+		'&:hover': {
+			opacity: '.8',
+			color:"#FD975E",
+		},
+	}),
 }

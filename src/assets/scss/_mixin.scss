@@ -1,17 +1,40 @@
-@mixin s1024{
-  @media(max-width:1024px){
+@mixin s1024 {
+  @media (max-width: 1024px) {
     @content;
   }
 }
 
-@mixin s767{
-  @media(max-width:767px){
+@mixin s767 {
+  @media (max-width: 767px) {
     @content;
   }
 }
 
-@mixin s480{
-  @media(max-width:480px){
+@mixin s480 {
+  @media (max-width: 480px) {
     @content;
   }
 }
+
+@mixin button_basic($width) {
+  width: $width;
+  padding: 12px 24px;
+  gap: 10px;
+  background-color: #FD975E;
+  border-radius: 100px;
+  height: 52px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  div{
+    color: white;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+  }
+  &:hover{
+    background-color: #FF650F;
+  }
+}
+

@@ -1,37 +1,34 @@
-@import '_mixin.scss';
+@import "_mixin.scss";
 
-$blue-light : #71c3d8;
-$yellow-light : #f1d63c;
-$my-white : #504747;
+$blue-light: #71c3d8;
+$yellow-light: #f1d63c;
+$my-white: #504747;
+
+$orange:#FD975E;
+
 
 @font-face {
-    font-family: Noto Sans TC;
-    src: url("../info//NotoSansTC.otf") format("opentype");
+  font-family: Noto Sans TC;
+  src: url("../info//NotoSansTC.otf") format("opentype");
 }
 
 * {
-    box-sizing: border-box;
-    font-family: 'Noto Sans TC' !important;
-    font-display: swap;
+  box-sizing: border-box;
+  font-family: "Roboto" !important;
+  font-display: swap;
 }
 
 html,
 body,
 #root {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
-
-.App {
-    height: 100%;
-    width: 100%;
-    position: relative;
-    overflow:auto;
+* {
+  box-sizing: border-box;
 }
 
-main {
-    width: 100%;
-    height: auto;
-    // margin-bottom: 64px;
+.btn_more {
+  @include button_basic(144px);
 }
